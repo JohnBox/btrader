@@ -1,16 +1,16 @@
 {
-  "api_key": "your-api-key-here",
-  "api_secret": "your-api-secret-here",
+  "api_key": "vKksFolYgXPEWvErL0jSmZpBv4AHdjlXqEe2V7IpJA38wsbITWoRMt4XgQ4O2sll",
+  "api_secret": "2x424qqSumLHJ08laPiHpG27QjF8NW0zpJH2OXMtWFd3C7X6EZ0QGGJ8RbtxdS2R",
 
-  "investment_base" : "BTC",
-  "investment_min" : 0.0010,
-  "investment_max" : 0.0015,
-  "investment_step" : 0.0001,
+  "investment_base" : "USDT",
+  "investment_min" : 1.50,
+  "investment_max" : 2.50,
+  "investment_step" : 0.50,
 
-  "trading_enabled" : false,
+  "trading_enabled" : true,
   "trading_execution_cap" : 1,
-  "trading_taker_fee" : 0.1,
-  "trading_profit_threshold" : 0.15,
+  "trading_taker_fee" : 0.05,
+  "trading_profit_threshold" : 0.03,
   "trading_age_threshold" : 100,
 
   "depth_size" : 20,

@@ -23,6 +23,7 @@ pub struct LocalOrderBook {
 
 #[derive(Debug)]
 pub struct DepthCache {
+  #[allow(dead_code)]
   map: Arc<RwLock<HashMap<String, LocalOrderBook>>>,
   in_tx: Mutex<Sender<String>>,
   out_rx: Mutex<Receiver<LocalOrderBook>>,

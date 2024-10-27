@@ -16,6 +16,8 @@ pub struct TradingPair {
   timestamp: SystemTime,
 }
 
+
+
 impl fmt::Display for TradingPair {
   fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
     write!(f, "<TradingPair {}/{}>", self.base_asset, self.quote_asset)
